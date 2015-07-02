@@ -1,0 +1,23 @@
+.end {margin-top: 5cm;}
+.prettyprint {
+  margin-bottom: 0; 
+  margin-top: 0;
+}
+.small {
+  font-size: 85%;
+}
+.title-slide hgroup {
+  bottom: 200px;
+}
+ul > li > ul > li {
+  font-size: 85%;
+}
+slide::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background: transparent url("img/stopka.png") no-repeat scroll center bottom;
+  height: 65px;
+  width: 100%;
+}

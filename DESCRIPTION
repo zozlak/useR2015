@@ -1,0 +1,22 @@
+Package: useR2015
+Title: pakiet na konferencje useR
+Description: Pakiet na konferencje useR.
+Version: 0.0.1
+Author: 
+  Mateusz Zoltak <zozlak@zozlak.org>, 
+Maintainer: Mateusz Zoltak <zozlak@zozlak.org>
+Depends: 
+Imports:
+    DBI,
+    testthat
+Suggests: 
+    knitr,
+    MonetDB.R,
+    ODB,
+    RJDBC,
+    RMySQL,
+    RPostgreSQL,
+    RSQLite
+License: MIT + file LICENSE
+NeedsCompilation: no
+Encoding: UTF-8
