@@ -18,7 +18,6 @@ Given a handler to the database tests capabilities of the DBI driver.
 }
 \examples{
 \dontrun{
- library(DBI)
  system('monetdbd start monetdb')
  handlers = list(
    SQLite = dbConnect(RSQLite::SQLite(), ":memory:"),

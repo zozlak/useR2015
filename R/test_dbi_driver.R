@@ -8,7 +8,6 @@
 #' @import testthat
 #' @examples
 #' \dontrun{
-#'  library(DBI)
 #'  system('monetdbd start monetdb')
 #'  handlers = list(
 #'    SQLite = dbConnect(RSQLite::SQLite(), ":memory:"),
