@@ -11,6 +11,7 @@
 #' @return numeric vector describing dbListTables() behaviour
 #' @import DBI
 #' @import testthat
+#' @export
 test_dbListTables = function(conn){
   on.exit(tidy_up(conn))
   create_schemas(conn)

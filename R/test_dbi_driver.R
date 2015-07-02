@@ -17,6 +17,7 @@
 #'  )
 #'  sapply(handlers, test_dbi_driver)
 #' }
+#' @export
 test_dbi_driver = function(conn){
   result = list(
     dbGetQuery = test_dbGetQuery(conn),

@@ -3,6 +3,7 @@
 #' @return TRUE or FALSE indicating test pass/fail
 #' @import DBI
 #' @import testthat
+#' @export
 test_dbReadTable = function(conn){
   on.exit(tidy_up(conn))
   create_schemas(conn)

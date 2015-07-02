@@ -8,6 +8,7 @@
 #' @return logical vector describing dbReadTable() behaviour
 #' @import DBI
 #' @import testthat
+#' @export
 test_dbReadTable_another_schema = function(conn){
   on.exit(tidy_up(conn))
   create_schemas(conn)
